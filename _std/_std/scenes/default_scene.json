@@ -20,8 +20,8 @@
       ]
     },
     {
-      "type": "gltf",
       "name": "cube",
+      "type": "gltf",
       "usage": "skybox"
     },
     {
