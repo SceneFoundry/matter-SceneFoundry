@@ -4,11 +4,6 @@
       "type": "obj",
       "name": "quad",
       "path": "quad.obj"
-    },
-    {
-      "type": "gltf",
-      "name": "sponza",
-      "path": "gltf/sponza/sponza.gltf"
     }
   ],
   "models": [
@@ -16,6 +11,11 @@
       "type": "obj",
       "name": "quad",
       "path": "quad.obj"
+    },
+    {
+      "type": "gltf",
+      "name": "sponza",
+      "path": "gltf/sponza/sponza.gltf"
     },
     {
       "type": "gltf",

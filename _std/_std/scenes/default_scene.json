@@ -57,12 +57,36 @@
       "usage": "skybox"
     },
     {
+      "name": "flight_helmet",
+      "model": "flight_helmet",
+      "renderSystem": "scene",
+      "position": [ 0.0, 2.0, 0.0 ],
+      "rotation": [ 0.0, 5.0, 0.0 ],
+      "scale": [ 2.0, 2.0, 2.0 ]
+    },
+    {
+      "name": "skybox_hdr",
+      "model": "cube",
+      "position": [ 0.0, 0.0, 0.0 ],
+      "rotation": [ 0.0, 0.0, 0.0 ],
+      "scale": [ 1.0, 1.0, 1.0 ],
+      "skybox": true,
+      "renderSystem": "skybox_ibl"
+    },    
+    {
+      "name": "quad",
+      "position": [ 0.0, 0.0, 0.0 ],
+      "rotation": [ -90.0, 0.0, 0.0 ],
+      "scale": [ 10.0, 10.0, 1.0 ],
+      "renderSystem": "obj"
+    },
+    {
       "name": "cerberus",
       "model": "cerberus",
       "renderSystem": "gltf",
       "position": [ 10.0, 2.0, 0.0 ],
       "rotation": [ 0.0, 5.0, 0.0 ],
-      "scale": [ 2.0, 2.0, 2.0 ]
+      "scale": [ 6.0, 6.0, 6.0 ]
     }    
   ]
 }
