@@ -1,7 +1,7 @@
 {
   "camera": {
     "position": [ 19.0, 5.5, 0.0 ],
-    "rotation": [ 0.0, 0.0, -20.0 ]
+    "rotation": [ 0.0, 180.0, 0.0 ]
   },
 
   "objects": [
@@ -24,6 +24,14 @@
       "type": "gltf",
       "usage": "skybox"
     },
+    {
+      "name": "skybox_hdr",
+      "model": "cube",
+      "position": [ 0.0, 0.0, 0.0 ],
+      "rotation": [ 0.0, 0.0, 0.0 ],
+      "scale": [ 1.0, 1.0, 1.0 ],
+      "skybox": true
+    },    
     {
       "name": "main_scene",
       "model": "sponza",
