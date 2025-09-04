@@ -57,6 +57,14 @@
       "usage": "skybox"
     },
     {
+      "name": "main_scene",
+      "model": "sponza",
+      "renderSystem": "scene",
+      "position": [ 0.0, 1.0, 0.0 ],
+      "rotation": [ 0.0, 0.0, 0.0 ],
+      "scale": [ 2.0, 2.0, 2.0 ]
+    },    
+    {
       "name": "flight_helmet",
       "model": "flight_helmet",
       "renderSystem": "scene",
