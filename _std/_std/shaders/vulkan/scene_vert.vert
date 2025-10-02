@@ -17,11 +17,12 @@ struct PointLight {
 
 
 layout(set = 0, binding = 0) uniform GlobalUbo {
-    mat4 projection;
+        mat4 projection;
     mat4 view;
+    mat4 invView;
     vec4 ambientLightColor;
-    vec4 viewPos;         
-    PointLight pointLights[10];
+	 vec4 viewPos;
+PointLight pointLights[10];
     int numLights;
 } ubo;
 
@@ -36,7 +37,7 @@ layout(location = 0) out vec3  fragNormal;
 layout(location = 1) out vec4  fragColor;
 layout(location = 2) out vec2  fragUV;
 layout(location = 3) out vec3  fragViewVec;
-layout(location = 4) out vec3 fragWorldPos;
+layout(location = 4) out vec3  fragWorldPos;
 layout(location = 5) out vec4  fragTangent;
 
 void main() {

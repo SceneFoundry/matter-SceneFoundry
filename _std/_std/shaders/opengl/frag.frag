@@ -19,6 +19,7 @@ layout(std140) uniform GlobalUbo {
     mat4 view;
     mat4 invView;
     vec4 ambientLightColor;
+	 vec4 viewPos;
     PointLight pointLights[10];
     int numLights; // Needs to be padded to 16 bytes in std140 layout
     // Add padding to align to 16 bytes

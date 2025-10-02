@@ -4,18 +4,6 @@
       "type": "obj",
       "name": "quad",
       "path": "quad.obj"
-    }
-  ],
-  "models": [
-    {
-      "type": "obj",
-      "name": "quad",
-      "path": "quad.obj"
-    },
-    {
-      "type": "gltf",
-      "name": "sponza",
-      "path": "gltf/sponza/sponza.gltf"
     },
     {
       "type": "gltf",
@@ -24,22 +12,16 @@
     },
     {
       "type": "gltf",
-      "name": "cerberus",
-      "path": "gltf/cerberus/cerberus.gltf"
-    },
-    {
-      "type": "gltf",
-      "name": "cube",
-      "path": "gltf/cube.gltf",
-      "usage": "skybox"
-    },
-    {
-      "type": "gltf",
       "name": "cesium_man",
       "path": "gltf/CesiumMan/glTF/CesiumMan.gltf"
+    },
+    {
+      "type": "gltf",
+      "name": "helmet",
+      "path": "gltf/helmet/DamagedHelmet.gltf"
     }
   ],
-  "textures": [
+  "textures_backup": [
     {
       "name": "cerberus_albedo",
       "path": "models/gltf/cerberus/albedo.ktx",
@@ -90,6 +72,32 @@
       "path": "models/DamagedHelmet/glTF/Default_emissive.jpg",
       "format": "VK_FORMAT_R8_UNORM"
     }
+  ],  
+    "models": [
+    {
+      "type": "obj",
+      "name": "quad",
+      "path": "quad.obj"
+    },
+    {
+      "type": "gltf",
+      "name": "sponza",
+      "path": "gltf/sponza/sponza.gltf"
+    },
+    {
+      "type": "gltf",
+      "name": "cube",
+      "path": "gltf/cube.gltf",
+      "usage": "skybox"
+    },
+    {
+      "type": "gltf",
+      "name": "cerberus",
+      "path": "gltf/cerberus/cerberus.gltf",
+      "external_pbr": true
+    }
+  ],
+  "textures": [
   ],  
   "cubemaps": [
     {
