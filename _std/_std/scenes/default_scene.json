@@ -58,12 +58,12 @@
       ]
     }    
   ],
-  "lights":
+  "lights_backup":
   [
     {
       "name": "light1",
       "type": "spherical",
-      "color": [1.0, 1.0, 1.0],
+      "color": [0.5, 0.5, 0.],
       "position": [0.0, 2.0, 0.0],
       "animation":
       {
@@ -80,7 +80,7 @@
     {
       "name": "light1",
       "type": "spherical",
-      "color": [1.0, 1.0, 1.0],
+      "color": [0.8, 0.8, 0.8],
       "position": [0.0, 1.5, 0.0],
       "animation":
       {
@@ -97,7 +97,7 @@
     {
       "name": "light1",
       "type": "spherical",
-      "color": [1.0, 1.0, 1.0],
+      "color": [0.8, 0.8, 0.8],
       "position": [0.0, 1.0, 0.0],
       "animation":
       {
@@ -110,6 +110,38 @@
             },
           "speed": 0.5
       }
+    },
+    {
+      "name": "light1",
+      "type": "spherical",
+      "color": [0.8, 0.8, 0.8],
+      "position": [0.0, 0.5, 0.0],
+      "animation":
+      {
+          "type": "translation",
+          "path": 
+            {
+              "shape": "circle",
+              "radius": [1.0, 0.0, 0.0], 
+              "axis": [0.0, 1.0, 0.0] 
+            },
+          "speed": 0.5
+      }
+    }
+  ],
+  "lights":
+  [
+    {
+      "name": "light1",
+      "type": "spherical",
+      "color": [1.0, 0.95, 0.9, 1.0],
+      "position": [0.0, 3.5, 2.0]
+    },
+    {
+      "name": "light1",
+      "type": "spherical",
+      "color": [1.0, 0.95, 0.9, 1.0],
+      "position": [0.0, 3.5, -2.0]
     }
   ],
   "objects": [
