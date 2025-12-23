@@ -171,9 +171,9 @@
       "name": "cerberus",
       "model": "cerberus",
       "renderSystem": "gltf",
-      "position": [ 5.0, 5.0, 0.0 ],
-      "rotation": [ 0.0, 90.0, 0.0 ],
-      "scale": [ 2.0, 2.0, 2.0 ]
+      "position": [ 0.69, 1.31, -2.31 ],
+      "rotation": [ 30.0, 0.0, 0.0 ],
+      "scale": [ 0.69, 0.69, 0.69 ]
     }  
   ]
 }
